@@ -1,0 +1,20 @@
+.vector-icon {
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  top: 12.5%;
+  right: 0;
+  bottom: 12.5%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.arrow-left-solid-2 {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}

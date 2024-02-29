@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo Black:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Coda Caption:wght@800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <header class="pexels-bri-schneiter-346529-1-parent">
+        <img
+          class="pexels-bri-schneiter-346529-1-icon"
+          alt=""
+          src="./public/pexelsbrischneiter346529-1@2x.png"
+        />
+
+        <div class="arrow-left-solid-3-wrapper">
+          <img
+            class="arrow-left-solid-3-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/arrowleftsolid-31.svg"
+            id="arrowLeftSolid3"
+          />
+        </div>
+        <div class="first-trip-label">
+          <h2 class="make-your-first">Make Your First Trip</h2>
+        </div>
+      </header>
+      <section class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="plane-departure-mark-wrapper">
+          <div class="plane-departure-mark">
+            <img
+              class="plane-departure-solid-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/planedeparturesolid-1.svg"
+              id="planeDepartureSolid1"
+            />
+
+            <div class="flights-container">
+              <div class="flights" id="flightsText">Flights</div>
+              <div class="flights1" id="flightsText1">Flights</div>
+            </div>
+          </div>
+        </div>
+        <div class="hotels-label">
+          <div class="vector-marker-parent">
+            <div class="vector-marker">
+              <img
+                class="umbrella-beach-background"
+                loading="lazy"
+                alt=""
+                src="./public/vector.svg"
+                id="umbrellaBeachBackground"
+              />
+            </div>
+            <div class="hotels" id="hotelsText">Hotels</div>
+          </div>
+        </div>
+        <div class="taxi-cab-label">
+          <div class="umbrella-beach-icon-parent">
+            <div class="umbrella-beach-icon">
+              <img
+                class="umbrella-beach-solid-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/umbrellabeachsolid-1.svg"
+                id="umbrellaBeachSolid1"
+              />
+            </div>
+            <div class="holiday-packages" id="holidayPackagesText">
+              <p class="holiday">Holiday</p>
+              <p class="packages">Packages</p>
+            </div>
+          </div>
+        </div>
+        <div class="transport-mode">
+          <div class="transport-mode1">
+            <img
+              class="taxi-solid-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/taxisolid-1.svg"
+              id="taxiSolid1"
+            />
+          </div>
+          <div class="cabs" id="cabsText">Cabs</div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var arrowLeftSolid3 = document.getElementById("arrowLeftSolid3");
+      if (arrowLeftSolid3) {
+        arrowLeftSolid3.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
+        });
+      }
+      
+      var planeDepartureSolid1 = document.getElementById("planeDepartureSolid1");
+      if (planeDepartureSolid1) {
+        planeDepartureSolid1.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+      
+      var flightsText = document.getElementById("flightsText");
+      if (flightsText) {
+        flightsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+      
+      var flightsText1 = document.getElementById("flightsText1");
+      if (flightsText1) {
+        flightsText1.addEventListener("click", function (e) {
+          window.location.href = "./desktop3.html";
+        });
+      }
+      
+      var umbrellaBeachBackground = document.getElementById(
+        "umbrellaBeachBackground"
+      );
+      if (umbrellaBeachBackground) {
+        umbrellaBeachBackground.addEventListener("click", function (e) {
+          window.location.href = "./desktop6.html";
+        });
+      }
+      
+      var hotelsText = document.getElementById("hotelsText");
+      if (hotelsText) {
+        hotelsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop6.html";
+        });
+      }
+      
+      var umbrellaBeachSolid1 = document.getElementById("umbrellaBeachSolid1");
+      if (umbrellaBeachSolid1) {
+        umbrellaBeachSolid1.addEventListener("click", function (e) {
+          window.location.href = "./desktop5.html";
+        });
+      }
+      
+      var holidayPackagesText = document.getElementById("holidayPackagesText");
+      if (holidayPackagesText) {
+        holidayPackagesText.addEventListener("click", function (e) {
+          window.location.href = "./desktop5.html";
+        });
+      }
+      
+      var taxiSolid1 = document.getElementById("taxiSolid1");
+      if (taxiSolid1) {
+        taxiSolid1.addEventListener("click", function (e) {
+          window.location.href = "./desktop7.html";
+        });
+      }
+      
+      var cabsText = document.getElementById("cabsText");
+      if (cabsText) {
+        cabsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop7.html";
+        });
+      }
+      </script>
+  </body>
+</html>
